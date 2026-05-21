@@ -2,7 +2,8 @@
   "name": "DORANG",
   "short_name": "DORANG",
   "description": "Cerita yang Layak untuk Diceritakan",
-  "start_url": "https://donnyturang.blogspot.com/",
+  "start_url": ".",
+  "scope": "/",
   "display": "standalone",
   "theme_color": "#2c3e50",
   "background_color": "#ffffff",
@@ -11,13 +12,13 @@
       "src": "https://raw.githubusercontent.com/donnyturang/dorang-pwa-site/main/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "any maskable"
     },
     {
       "src": "https://raw.githubusercontent.com/donnyturang/dorang-pwa-site/main/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     }
   ]
 }
